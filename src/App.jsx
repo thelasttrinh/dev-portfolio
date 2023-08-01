@@ -3,7 +3,10 @@ import "./App.scss";
 
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline">App</div>
+    <div >
+      App
+      <div className="text-3xl font-bold underline">Hi</div>
+    </div>
   )
 }
 
