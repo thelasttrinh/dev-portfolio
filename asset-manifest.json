@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dev-portfolio.git/static/css/main.f7f1af09.css",
-    "main.js": "/dev-portfolio.git/static/js/main.dc34a7e7.js",
-    "static/js/787.1ed0c42c.chunk.js": "/dev-portfolio.git/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/dev-portfolio.git/index.html",
-    "main.f7f1af09.css.map": "/dev-portfolio.git/static/css/main.f7f1af09.css.map",
-    "main.dc34a7e7.js.map": "/dev-portfolio.git/static/js/main.dc34a7e7.js.map",
-    "787.1ed0c42c.chunk.js.map": "/dev-portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/dev-portfolio/static/css/main.f7f1af09.css",
+    "main.js": "/dev-portfolio/static/js/main.57882e96.js",
+    "static/js/787.1ed0c42c.chunk.js": "/dev-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/dev-portfolio/index.html",
+    "main.f7f1af09.css.map": "/dev-portfolio/static/css/main.f7f1af09.css.map",
+    "main.57882e96.js.map": "/dev-portfolio/static/js/main.57882e96.js.map",
+    "787.1ed0c42c.chunk.js.map": "/dev-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7f1af09.css",
-    "static/js/main.dc34a7e7.js"
+    "static/js/main.57882e96.js"
   ]
 }
