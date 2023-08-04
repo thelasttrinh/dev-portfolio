@@ -3,9 +3,9 @@ import "./Styling/App.scss";
 import Header from "./Containers/Header"
 const App = () => {
   return (
-    <div >
+    <div>
       <Header/>
-      <div className="text-3xl font-bold underline">WE did it</div>
+      <div className="text-3xl font-bold underline testing">We did it</div>
     </div>
   )
 }
