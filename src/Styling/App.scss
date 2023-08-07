@@ -4,8 +4,9 @@
 @tailwind utilities;
 
 .testing{
-    background-color: #c75e5e;
-    @apply text-3xl;
+  background-color: #c75e5e;
+  @apply text-3xl;
   @apply font-bold;
   @apply underline;
 }
+

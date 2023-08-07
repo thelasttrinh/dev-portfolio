@@ -2,33 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-header {
-  // Set the background color and height of the header
-  @apply bg-gray-800;
-  height: 70px;
-
-  // Style the text inside the header
-  div {
-    @apply text-white;
-    @apply text-xl;
-    @apply font-semibold;
-    @apply cursor-pointer;
-    @apply mx-2;
-    @apply transition-colors;
-    @apply duration-300;
-    @apply hover:text-yellow-500; // Change the color on hover
-
-    // Add a little padding around the text
-    padding: 0.5rem 1rem;
-  }
-
-  // Style the "Night Mode" div differently
-  div:last-child {
-    @apply bg-yellow-500;
-    @apply hover:bg-yellow-400;
-    @apply rounded-lg;
-    @apply px-4;
-  }
+.header-links{
+    @apply flex items-center;
+    @apply text-2xl font-semibold ml-8;
+}
+.header-links-right{
+    @apply ml-auto mr-8;
+    @apply flex gap-4;
+}
+.header-links-hover{
+    @apply hover:bg-violet-600;
 }
