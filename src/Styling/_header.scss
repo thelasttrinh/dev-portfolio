@@ -11,5 +11,6 @@
     @apply flex gap-4;
 }
 .header-links-hover{
-    @apply hover:bg-violet-600;
+    @apply hover:text-red-400;
 }
+// Check tailwind examples for hover 
