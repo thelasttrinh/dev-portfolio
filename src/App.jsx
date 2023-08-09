@@ -1,19 +1,18 @@
 import React from 'react';
 import "./Styling/App.scss";
 import Header from "./Containers/Header";
+import Intro from './Containers/Intro';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 const App = () => {
   return (
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<Header/>}/>
+          <Route path="/dev-portfolio" element={<Header/>}/>
         </Routes>
-      
-      <div className="text-3xl font-bold underline testing">We did it</div>
+        <Intro id="about-me"/>
       </div>
     </Router>
   )
 }
-//Do routers?
 export default App
