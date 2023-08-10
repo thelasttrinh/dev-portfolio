@@ -8,8 +8,8 @@ const Header = () => {
       <Link to="/dev-portfolio" class="header-links-hover">Home</Link>
         <div class="header-links-right">
         <a href={PDF} without rel="noopener noreferrer" target="_blank">
-          <button trailingIcon="picture_as_pdf" label="Resume">
-            View Resume
+          <button class="header-links-hover resume" label="Resume">
+            Resume
           </button>
         </a>
           {/* <div class="header-links-hover">View Resume</div> */}

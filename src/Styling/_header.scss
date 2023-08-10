@@ -13,4 +13,9 @@
 .header-links-hover{
     @apply hover:text-red-400;
 }
+
+.resume{
+    // border: 2px solid black;
+    @apply border border-black border-solid;
+}
 // Check tailwind examples for hover 
