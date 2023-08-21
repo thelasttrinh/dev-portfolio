@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header-links {
+  @apply flex items-center text-2xl font-semibold ml-8;
+}
+
+.header-links-right {
+  @apply ml-auto mr-8 flex gap-4;
+}
+
+.header-links-hover {
+  @apply hover:text-theme("text");
+}
+
+.resume {
+  @apply border border-black border-solid;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;/*# sourceMappingURL=App.css.map */

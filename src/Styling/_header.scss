@@ -3,19 +3,17 @@
 @tailwind utilities;
 
 .header-links{
-    @apply flex items-center;
-    @apply text-2xl font-semibold ml-8;
+    @apply flex items-center text-2xl font-semibold ml-8;
 }
 .header-links-right{
-    @apply ml-auto mr-8;
-    @apply flex gap-4;
+    @apply ml-auto mr-8 flex gap-4;
 }
 .header-links-hover{
-    @apply hover:text-red-400;
+    @apply hover:text-primary;
 }
 
+
 .resume{
-    // border: 2px solid black;
     @apply border border-black border-solid;
 }
 // Check tailwind examples for hover 
