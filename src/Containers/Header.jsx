@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styling/App.scss'
 import { Link } from 'react-router-dom'
-import PDF from "../assets/Aaron_Trinh_Resume_5.0.pdf";
+import PDF from "../assets/Aaron_Trinh_Resume_5.1.pdf";
 const Header = () => {
   return (
     <div class="header-links">
