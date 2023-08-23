@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .intro{
-    @apply flex items-center text-center
+    @apply grid-rows-4 grid-cols-1 text-center break-words;
 }
