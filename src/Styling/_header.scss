@@ -3,20 +3,16 @@
 @tailwind utilities;
 
 .header-links{
-    @apply flex items-center place-items-center text-2xl font-semibold ml-8;
+    @apply flex items-center place-items-center text-2xl font-semibold ml-8 ;
     
 }
 .header-links-right{
-    @apply ml-auto mr-8 flex gap-4;
+    @apply ml-auto mr-8 flex gap-5 mt-5 items-center;
 }
 .header-links-hover{
     @apply hover:text-primary;
 }
 
 
-.resume{
-    // @apply border border-black border-solid flex items-center gap-2 cursor-pointer;
-    // @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
-    @apply absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-primary rounded-md opacity-0 group-hover:opacity-100 
-}
+
 // Check tailwind examples for hover 

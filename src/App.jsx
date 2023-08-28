@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 const App = () => {
   return (
     <Router>
-      <div>
+      <div class="background">
         <Routes>
           <Route path="/dev-portfolio" element={<Header/>}/>
         </Routes>
