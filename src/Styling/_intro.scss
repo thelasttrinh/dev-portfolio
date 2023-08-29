@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .intro{
-    @apply grid-rows-4 grid-cols-1 text-center break-words;
+    @apply flex flex-col flex-wrap place-items-center mt-36;
 }

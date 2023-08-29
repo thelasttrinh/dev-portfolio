@@ -3,7 +3,7 @@ import '../Styling/_intro.scss'
 
 const Intro = () => {
   return (
-    <div class="intro">
+    <div class="intro h-screen">
       <h1>Hello, my name is</h1>
       <h2>Aaron Trinh</h2>
       <h3>I'm passionate about crafting for the digital realm.</h3>

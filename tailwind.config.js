@@ -10,6 +10,9 @@ module.exports = {
         secondary: "#d3cfed",
         accent: "#46a0aa",
       },
+      fontFamily: {
+        lato: "Lato",
+      },
     },
   },
   plugins: [],
