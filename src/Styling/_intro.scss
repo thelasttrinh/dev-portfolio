@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .intro{
-    @apply flex flex-col flex-wrap place-items-center mt-36;
+    @apply flex flex-col ml-auto mr-auto justify-center max-w-md;
 }
