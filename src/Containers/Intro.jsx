@@ -4,10 +4,10 @@ import '../Styling/_intro.scss'
 const Intro = () => {
   return (
     <div class="intro h-screen">
-      <h1>Hello, my name is</h1>
-      <h2>Aaron Trinh</h2>
-      <h3>I'm passionate about crafting for the digital realm.</h3>
-      <p>Aspiring software developer with a keen interest 
+      <h1 class="h1">Hello, my name is</h1>
+      <h2 class="h2">Aaron Trinh.</h2>
+      <h3 class="h3">I'm passionate about crafting for the digital realm.</h3>
+      <p class="p">Aspiring software developer with a keen interest 
         in creating user-centric and innovative digital solutions. 
         I'm dedicated to honing my skills and currently on a journey to master the 
         art of building engaging and accessible software. Excited to contribute my talents 

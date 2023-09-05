@@ -5,3 +5,19 @@
 .intro{
     @apply flex flex-col ml-auto mr-auto justify-center max-w-md;
 }
+
+.h1{
+    @apply text-base;
+}
+
+.h2{
+    @apply text-5xl;
+}
+
+.h3{
+    @apply text-2xl;
+}
+
+.p{
+    @apply text-sm;
+}
