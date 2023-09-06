@@ -7,17 +7,17 @@
 }
 
 .h1{
-    @apply text-base;
+    @apply text-base text-mint_green;
 }
 
 .h2{
-    @apply text-5xl;
+    @apply text-5xl text-lightest_slate;
 }
 
 .h3{
-    @apply text-2xl;
+    @apply text-4xl text-slate-500;
 }
 
 .p{
-    @apply text-sm;
+    @apply text-sm text-lightest_navy;
 }

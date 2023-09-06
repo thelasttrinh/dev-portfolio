@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .header-links{
-    @apply flex items-center place-items-center text-2xl font-semibold ml-8 ;
+    @apply flex items-center place-items-center text-2xl font-semibold ml-8 text-lightest_slate;
     
 }
 .header-links-right{
