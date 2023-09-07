@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 .intro{
-    @apply flex flex-col ml-auto mr-auto justify-center max-w-md;
+    @apply flex flex-col justify-center max-w-lg ;
 }
 
 .h1{
-    @apply text-base text-mint_green;
+    @apply text-base text-mint_green pb-5;
 }
 
 .h2{
-    @apply text-5xl text-lightest_slate;
+    @apply text-5xl text-lightest_slate pb-4;
 }
 
 .h3{
-    @apply text-4xl text-slate-500;
+    @apply text-4xl text-light_slate pb-4;
 }
 
 .p{
-    @apply text-sm text-lightest_navy;
+    @apply text-sm text-slate-500;
 }

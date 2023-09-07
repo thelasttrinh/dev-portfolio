@@ -11,14 +11,6 @@ const Header = () => {
         <path fill="currentColor" d="m16 8.5l1.53 1.53l-1.06 1.06L10 
         4.62l-6.47 6.47l-1.06-1.06L10 2.5l4 4v-2h2v4zm-6-2.46l6 
         5.99V18H4v-5.97zM12 17v-5H8v5h4z"></path></svg>
-        {/* <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-          <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-          <span class="flex items-center gap-2 relative text-black group-hover:text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
-        <path fill="currentColor" d="m16 8.5l1.53 1.53l-1.06 1.06L10 
-        4.62l-6.47 6.47l-1.06-1.06L10 2.5l4 4v-2h2v4zm-6-2.46l6 
-        5.99V18H4v-5.97zM12 17v-5H8v5h4z"></path></svg>
-            </span> */}
         </Link>
         <div class="header-links-right">
           <a href={PDF} without rel="noopener noreferrer" target="_blank" class="relative inline-block px-4 py-2 font-medium group">

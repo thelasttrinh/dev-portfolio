@@ -7,5 +7,9 @@
 @tailwind utilities;
 
 .background{
-    @apply bg-navy font-lato;
+    @apply bg-navy font-lato h-screen w-screen;
+}
+
+@media (max-width: 501px) {
+  
 }
