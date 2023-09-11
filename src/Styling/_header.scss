@@ -5,6 +5,7 @@
 .header-links{
     @apply flex flex-1 flex-wrap place-items-center overflow-hidden;
     @apply text-2xl font-semibold ml-8 text-lightest_slate;
+    @apply fixed place-items-center w-screen p-6;
     
 }
 .header-links-right{

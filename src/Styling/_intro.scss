@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 .intro{
-    @apply flex flex-col justify-center max-w-lg ;
+    @apply flex flex-col text-left justify-center;
+    @apply max-w-lg overflow-hidden m-auto;
+    // @apply mt-48 ml-[29rem];
 }
 
 .h1{
@@ -11,7 +13,7 @@
 }
 
 .h2{
-    @apply text-5xl text-lightest_slate pb-4;
+    @apply text-6xl text-lightest_slate pb-4;
 }
 
 .h3{
