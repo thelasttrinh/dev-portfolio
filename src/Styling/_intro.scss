@@ -5,7 +5,7 @@
 .intro{
     @apply flex flex-col text-left justify-center;
     @apply max-w-lg overflow-hidden m-auto;
-    @apply h-screen
+    @apply h-screen lg:ml-[29rem];
 }
 
 .h1{
