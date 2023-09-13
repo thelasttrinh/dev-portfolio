@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         lato: "Lato",
       },
+      fontSize: {
+        clamp: "clamp(40px, 8vw, 80px)",
+      },
     },
   },
   plugins: [],
