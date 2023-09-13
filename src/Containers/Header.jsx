@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react'
 import '../Styling/App.scss'
 import { Link } from 'react-router-dom'
 import PDF from "../assets/Aaron_Trinh_Resume_5.2.pdf";
+import SideMenu from './SideMenu';
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showSideMenu, setShowSideMenu] = useState(false);
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 768px)").matches
   )
@@ -13,8 +14,8 @@ const Header = () => {
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
+  const toggleSideMenu = () => {
+    setShowSideMenu(!showSideMenu);
   }
   return (
     <div class="header-links">
@@ -40,10 +41,11 @@ const Header = () => {
       </div>
       )}
 
-      {!matches && (<svg class="header-links-right" xmlns="http://www.w3.org/2000/svg" width="32" height="32" 
+      {!matches && (<svg class="header-links-right header-links-hover" xmlns="http://www.w3.org/2000/svg" width="32" height="32" 
       viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" 
-      stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/></svg>)}
-        
+      stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" onClick={toggleSideMenu}/></svg>)} 
+
+      {showSideMenu && !matches &&<SideMenu toggleSideMenu = {toggleSideMenu}/>}
     </div>
   )
 }
