@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 .sidemenu{
-    @apply flex h-screen bg-gray-800 w-64 px-4 py-6
+    @apply fixed h-screen bg-gray-800 ;
+    @apply w-1/2 px-4 py-6 z-10 top-0 right-0;
+}
+
+.sidemenu-content{
+    @apply flex ml-auto;
 }

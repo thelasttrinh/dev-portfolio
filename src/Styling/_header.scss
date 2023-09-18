@@ -5,13 +5,17 @@
 .header-links{
     @apply flex flex-1 flex-wrap place-items-center overflow-hidden;
     @apply text-2xl font-semibold ml-8 text-lightest_slate;
-    @apply fixed place-items-center w-screen p-6;
+    @apply fixed place-items-center w-screen p-6 z-0;
     
 }
 .header-links-right{
-    @apply ml-auto mr-8 flex gap-5 items-center;
+    @apply ml-auto mr-8 flex gap-5 items-center z-0;
 }
-.header-links-hover{
+.header-hover{
     @apply hover:text-primary;
+}
+
+.header-hamburger{
+    @apply ml-auto mr-14 z-0;
 }
 
