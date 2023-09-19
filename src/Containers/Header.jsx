@@ -26,9 +26,10 @@ const Header = () => {
         5.99V18H4v-5.97zM12 17v-5H8v5h4z"></path></svg>
       </Link>
       
-      {matches && (
-        <div class="header-links-right">
-        <a href={PDF} without rel="noopener noreferrer" target="_blank" class="relative inline-block px-4 py-2 font-medium group">
+      <div className="header-links-right">
+        {matches ? (
+          <div className="header-links-right">
+            <a href={PDF} without rel="noopener noreferrer" target="_blank" class="relative inline-block px-4 py-2 font-medium group">
         <span class="absolute inset-0 w-full h-full bg-primary rounded"></span>
         <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform group-hover:-translate-x-1 group-hover:-translate-y-1 bg-navy border-2 border-primary group-hover:bg-navy rounded"></span>
         <span class="flex items-center gap-2 relative text-lightest_slate group-hover:text-lightest_slate rounded transition duration-200 ease-out transform group-hover:-translate-x-1 group-hover:-translate-y-1">
@@ -38,16 +39,23 @@ const Header = () => {
         <Link to="#about-me" class="header-hover">About Me</Link>
         <div class="header-hover">Projects</div>
         <div class="header-hover">Contact</div>
+          </div>
+        ) : (
+          <div className="header-hover header-hamburger" onClick={toggleSideMenu}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"
+              />
+            </svg>
+          </div>
+        )}
       </div>
-      )}
-
-      <div class="header-hover header-hamburger" onClick={toggleSideMenu}>
-      {!matches && (<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" 
-      viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" 
-      stroke-linejoin="round" stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/></svg>)} 
-
-      {showSideMenu && !matches && <SideMenu toggleSideMenu = {toggleSideMenu}/>}
-      </div>
+      {showSideMenu && !matches && <SideMenu toggleSideMenu={toggleSideMenu} />}
       
     </div>
   )
