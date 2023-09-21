@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.4803476e.css",
-    "main.js": "/dev-portfolio/static/js/main.f2df2528.js",
+    "main.css": "/dev-portfolio/static/css/main.413b3234.css",
+    "main.js": "/dev-portfolio/static/js/main.b3bb9bc2.js",
     "static/js/787.1ed0c42c.chunk.js": "/dev-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Aaron_Trinh_Resume_5.1.pdf": "/dev-portfolio/static/media/Aaron_Trinh_Resume_5.1.421b924e809966189742.pdf",
+    "static/media/Aaron_Trinh_Resume_5.2.pdf": "/dev-portfolio/static/media/Aaron_Trinh_Resume_5.2.29241b58e255a18cd19d.pdf",
     "index.html": "/dev-portfolio/index.html",
-    "main.4803476e.css.map": "/dev-portfolio/static/css/main.4803476e.css.map",
-    "main.f2df2528.js.map": "/dev-portfolio/static/js/main.f2df2528.js.map",
+    "main.413b3234.css.map": "/dev-portfolio/static/css/main.413b3234.css.map",
+    "main.b3bb9bc2.js.map": "/dev-portfolio/static/js/main.b3bb9bc2.js.map",
     "787.1ed0c42c.chunk.js.map": "/dev-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4803476e.css",
-    "static/js/main.f2df2528.js"
+    "static/css/main.413b3234.css",
+    "static/js/main.b3bb9bc2.js"
   ]
 }
