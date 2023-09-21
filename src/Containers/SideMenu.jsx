@@ -11,10 +11,22 @@ const SideMenu = (props) => {
     d="m11.25 4.75l-6.5 6.5m0-6.5l6.5 6.5" onClick={toggleSideMenu}/></svg>
     <div class="sidemenu-links">
     {headerLinks.map((link, index) => (
-      <Link to={link.to} key={index} className={link.classes}>
-        {link.text}
-      </Link>))
-      }
+  link.href ? ( // Check if href exists
+    <a
+      href={link.href}
+      key={index}
+      className={link.classes}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      {link.text}
+    </a>
+  ) : (
+    <Link to={link.to} key={index} className={link.classes}>
+      {link.text}
+    </Link>
+  )
+))}
     </div>
 
     </div>

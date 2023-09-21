@@ -29,7 +29,7 @@ const Header = () => {
 
   const headerLinks = [
     {
-      to: "/dev-portfolio",
+      href: PDF,
       text: (<a href={PDF} without rel="noopener noreferrer" target="_blank" class="relative inline-block px-4 py-2 font-medium group">
       <span class="absolute inset-0 w-full h-full bg-primary rounded"></span>
       <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform group-hover:-translate-x-1 group-hover:-translate-y-1 bg-navy border-2 border-primary group-hover:bg-navy rounded"></span>
